@@ -22,7 +22,7 @@ routes.delete('/books/:id', booksController.delete)
 
 routes.get('/teste', (request, response) => {
   return response.json({
-    message: 'Testando...'
+    message: 'Teste'
   })
 })
 
