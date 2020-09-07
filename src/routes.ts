@@ -20,4 +20,10 @@ routes.post('/books', booksController.create)
 routes.put('/books/:id', booksController.update)
 routes.delete('/books/:id', booksController.delete)
 
+routes.get('/teste', (request, response) => {
+  return response.json({
+    message: 'Teste do CodeClimate'
+  })
+})
+
 export default routes
